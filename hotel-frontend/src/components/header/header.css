@@ -4,6 +4,7 @@
 	background-color: var(--primary-color);
 	color: white;
 	position: relative;
+	z-index: 2;
 }
 
 .headerContainer {
