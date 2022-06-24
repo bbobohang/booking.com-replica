@@ -8,6 +8,7 @@ import { format } from 'date-fns';
 import { Location, useLocation } from 'react-router-dom';
 
 import './list.css';
+import SearchItem from '../../components/searchItem/SearchItem';
 
 const List = () => {
 	const location = useLocation();
@@ -106,7 +107,15 @@ const List = () => {
 						</div>
 						<button>Search</button>
 					</div>
-					<div className='listResult'></div>
+					<div className='listResult'>
+						<SearchItem />
+						<SearchItem />
+						<SearchItem />
+						<SearchItem />
+						<SearchItem />
+						<SearchItem />
+						<SearchItem />
+					</div>
 				</div>
 			</div>
 		</Fragment>

@@ -17,6 +17,8 @@
 	padding: 10px;
 	border-radius: 10px;
 	position: sticky;
+	height: max-content;
+	top: 20px;
 }
 
 .lsTitle {
@@ -27,7 +29,6 @@
 
 .listResult {
 	flex: 3;
-	background-color: gray;
 }
 
 .lsItem {
@@ -85,4 +86,9 @@
 	border-radius: 10px;
 	font-weight: 500;
 	cursor: pointer;
+}
+
+.lsTitle {
+	font-weight: bold;
+	font-size: x-large;
 }
