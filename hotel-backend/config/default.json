@@ -1,3 +1,4 @@
 {
-	"mongoURI": "mongodb+srv://bobohang:bobohang123@cluster0.flus6.mongodb.net/?retryWrites=true&w=majority"
+	"mongoURI": "mongodb+srv://bobohang:bobohang123@cluster0.flus6.mongodb.net/?retryWrites=true&w=majority",
+	"JWT": "PzBHblv9F92muUH0GLHTkhBwO4xVXMULjz8Wmrgg5Do="
 }

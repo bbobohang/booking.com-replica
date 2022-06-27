@@ -5,9 +5,11 @@ const auth = require('./routes/auth');
 const hotels = require('./routes/hotels');
 const rooms = require('./routes/rooms');
 const users = require('./routes/users');
+const cookieParser = require('cookie-parser');
 
 //Routing middleware
 app.use(express.json());
+app.use(cookieParser());
 app.use('/api/auth', auth);
 app.use('/api/hotels', hotels);
 app.use('/api/rooms', rooms);
